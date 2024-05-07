@@ -1,6 +1,6 @@
-# P^3ID: A Privacy-Preserving Person Identification Framework Towards Multi-Environments Based on Transfer Learning
+# P<sup>3</sup>ID: A Privacy-Preserving Person Identification Framework Towards Multi-Environments Based on Transfer Learning
 
-## About P^3ID
+## About P<sup>3</sup>ID
 
 We propose a transfer learning framework for achieving multi-environments person identification. A neural network is devised for  mapping signals from distinct environments into a unified feature space and further align them, enabling the model to extract environment-insensitive features. 
 
