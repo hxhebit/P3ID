@@ -30,6 +30,21 @@ Using a real Impulse Radio Ultra-WideBand (IR-UWB) radar testbed, we build a dat
 │  │   ├── ......
 │  ├── ......
 ```
+
+The anthropometric data of individuals is:
+| Person ID | Height (cm) | Weight (kg) | Gender |
+|:---------:|:-----------:|:-----------:|:------:|
+|     1     |     182     |      75     |  Male  |
+|     2     |     180     |      74     |  Male  |
+|     3     |     175     |      65     |  Male  |
+|     4     |     168     |      65     |  Male  |
+|     5     |     170     |      65     |  Male  |
+|     6     |     175     |      75     |  Male  |
+|     7     |     186     |      92     |  Male  |
+|     8     |     170     |      55     |  Male  |
+|     9     |     162     |      48     | Female |
+|    10     |     160     |      70     | Female |
+
 It is worth noting that the initial version of our work provides a part of dataset , while the remaining dataset will be made available in subsequent versions.
 
 ---
