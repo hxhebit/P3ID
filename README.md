@@ -78,7 +78,7 @@ Then, install Pytorch, tensorboard, and other dependencies:
 pip3 install -r requirements.txt
 ```
 
-Next, configure parameters at [file](https://github.com/hxhebit/P3ID.git/run/args/task1.yaml).
+Next, configure parameters at [file1](https://github.com/hxhebit/P3ID/blob/master/run/args/task1.yaml) or [file2](https://github.com/hxhebit/P3ID/blob/master/run/args/task2.yaml).
 
 Finally, to train and test on a single node with 8 GPUs, run:
 
@@ -86,7 +86,7 @@ Finally, to train and test on a single node with 8 GPUs, run:
 bash run/runs/task1.sh FOLDER_NAME
 ```
 
-To customize your dataset, simply substitute the [dataset](https://github.com/hxhebit/P3ID.git/dataset) with an identical directory structure.
+To customize your dataset, simply substitute the [dataset](https://github.com/hxhebit/P3ID/tree/master/dataset) with an identical directory structure.
 
 ---
 
