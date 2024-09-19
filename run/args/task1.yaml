@@ -1,0 +1,29 @@
+# Backbone
+backbone: cbam
+
+# Transfer loss related
+domain_loss_weight: 0.1
+transfer_loss_weight: 1
+transfer_loss: lmmd
+
+# Optimizer related
+lr: 5e-3
+weight_decay: 0.04
+momentum: 0.9
+lr_scheduler: True
+lr_gamma: 0.006
+lr_decay: 0.75
+clip_grad: 4
+clip_mode: agc
+
+
+# Training related
+n_epoch: 500
+batch_size: 32
+
+
+# Others
+seed: 1
+num_workers: 3
+epoch_based_training: True
+method: P3ID
