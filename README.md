@@ -46,6 +46,7 @@ Using a real IR-UWB radar testbed, we build a dataset with 22,264 samples from t
 │  │   ├── ......
 │  ├── ......
 ```
+<p1-A-0.5m-F-1> means **Person 1** conducted the **first** experiment in **Environment A** at a **distance of 0.5 meters** from the radar equipment, with **no obstructions**.
 
 The anthropometric data of individuals is:
 
@@ -83,7 +84,7 @@ Next, configure parameters at [file1](https://github.com/hxhebit/P3ID/blob/maste
 Finally, to train and test on a single node with 8 GPUs, run:
 
 ```bash
-bash run/runs/task1.sh FOLDER_NAME
+bash run/runs/task1.sh <FOLDER_NAME>
 ```
 
 To customize your dataset, simply substitute the [dataset](https://github.com/hxhebit/P3ID/tree/master/dataset) with an identical directory structure.
